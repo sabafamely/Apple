@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(hero_bts_2025__kjxalx8t7ia2_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+/* main{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+} */
+/* .sidebar{
+    width: 20%;
+} */
+main>section{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+gap: 10px;
+position: relative;
+}
+
+main>section>p {
+    width: 35%;
+    padding:15px 20px;
+    font-size: 40px;
+    background-color: #007aff;
+    color: white;
+    border-radius: 40px;
+    
+
+}
+
+main>section a {
+    text-decoration: none;
+    border: 1px solid #0b6dce;
+    color: #0b6dce;
+    border-radius: 18px;
+    padding: 10px 20px 10px 20px;
+
+}
+
+#smaltext {
+    width: 35%;
+    padding: 5px 0;
+    text-align: center;
+    font-size:20px;
+}
+
+#laptop {
+    position: absolute;
+    bottom:77%;
+    left: 55%;
+    z-index: 2;
+}
+
+#ipad {
+    position: absolute;
+    bottom: 64.2%;
+    left: 58%;
+}
+
+#emogi {
+    position: absolute;
+    z-index: 1;
+    left: 38%;
+    bottom: 43%;
+}
+
+a:hover {
+    background-color: #1078df;
+    color: whitesmoke;
+
+}
+@media (max-width:768px){
+ body{
+    background-size:auto;
+ }
+
+
+main>section>p {
+    width: 45%;
+    font-size:30px;
+}
+
+main>section a {
+    border-radius: 18px;
+    padding: 10px 15px;
+
+}
+
+#smaltext {
+    width: 40%;
+    padding:5px 0;
+    margin-bottom: 10px;
+    font-size:18px;
+}
+
+#laptop {
+    width: 20%;
+    bottom:90%;
+    left: 55%;
+}
+
+#ipad {
+    width: 10%;
+    bottom:77%;
+    left: 65%;
+}
+
+#emogi {
+    width: 8%;
+    left: 25%;
+    bottom:45%;
+}
+}
